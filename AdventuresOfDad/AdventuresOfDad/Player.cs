@@ -92,8 +92,7 @@ namespace AdventuresOfDad
                     break;
                 case ">":
                     if (!WillHitBounds(">"))
-                        _anim.attackRight();
-                    
+                        _anim.attackRight();                   
                     break;
             }
             
